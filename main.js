@@ -25,3 +25,8 @@ alert(`
 // Exercie 3: Afficher une boîte de dialogue
 let saisie = prompt("Quel est votre prénom ?");
 alert("Bonjour " + saisie);
+
+// Exercie 4: Refaire l'exercice 2
+let lastNom = prompt("Nom");
+let firstNom = prompt("Prénom");
+let cVille = prompt("Ville");
