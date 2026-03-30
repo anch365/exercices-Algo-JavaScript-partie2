@@ -67,3 +67,14 @@ if (age >= 18) {
 } else {
     alert("Vous êtes mineur")
 };
+
+// Exercice 9: Afficher la table de multiplication du nombre saisi
+let chiffre = parseInt(prompt("Saisissez un nombre"));
+let tableau = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let message ="";
+
+tableau.forEach(nombre => {
+    message += `${chiffre} x ${nombre}  = ${nombre * chiffre};"\n"`  
+});
+
+alert(message);
