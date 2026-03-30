@@ -38,3 +38,24 @@ let entier = parseInt(nbr1);
 
 let note = entier * nbr2;
 alert(note);
+
+// Exercie 7: Fonction qui fait beaucoup de claculs
+
+// function additionner(nombre1, nombre2){
+//    return nombre1+nombre2;
+//  }
+
+// let resultat = additionner(5, 9);
+
+// console.log(resultat);
+
+let pointure = prompt("Quelle est votre pointure ?");
+let annéeNaissance = prompt("Quelle est votre année de naissance ?");
+
+let resultat = pointure;
+ resultat = resultat * 2;
+ resultat = resultat + 5;
+ resultat = resultat * 50;
+ resultat = resultat - annéeNaissance;
+ resultat = resultat + 1770;
+ alert(resultat);
