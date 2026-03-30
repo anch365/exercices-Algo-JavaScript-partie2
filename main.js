@@ -10,7 +10,7 @@
 let sms = "Time's money";
 alert(sms);
 
-// EXERCIE 2: Définir 3 variables 
+// EXERCIE 2: Définir 3 variables
 let lastName = "Abdou";
 
 let firstName = "Fatima";
@@ -21,3 +21,7 @@ alert(`
   Prenom: ${firstName} \n 
   Ville: ${city} 
     `);
+
+// Exercie 3: Afficher une boîte de dialogue
+let saisie = prompt("Quel est votre prénom ?");
+alert("Bonjour " + saisie);
