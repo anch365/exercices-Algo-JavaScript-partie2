@@ -105,3 +105,11 @@ if (nombre == 5) {
 if (nombre >= 5) {
     alert("Le nombre saisi est supérieur à 5")
 };
+
+// Exercie 12: Création d'une fonction
+function carré(nombre) {
+  return nombre * nombre ;
+};
+let nbrCarré = Number(prompt("Saisissez un nombre"));
+let réponse = carré(nbrCarré);
+alert(réponse);
