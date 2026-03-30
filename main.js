@@ -59,3 +59,11 @@ let resultat = pointure;
  resultat = resultat - annéeNaissance;
  resultat = resultat + 1770;
  alert(resultat);
+
+// Exercice 8: Saisir son âge
+let age = prompt("Quel est ton âge ?");
+if (age >= 18) {
+    alert("Vous êtes majeur")
+} else {
+    alert("Vous êtes mineur")
+};
