@@ -87,3 +87,21 @@ for (const letter of word) {
     printable += letter + "\n" 
 }
 alert(printable);
+
+// Exercice 11: Afficher une boîte de dialogue
+let nombre = -1;
+
+while (nombre <= 0 || nombre >= 10) {
+    nombre = prompt("Saisissez un nombre compris entre 1 et 10");
+}
+
+ if (nombre <= 5) {
+    alert("Le nombre saisi est inférieur à 5")};
+
+if (nombre == 5) {
+    alert("Le nombre saisi est égal à 5")
+};
+
+if (nombre >= 5) {
+    alert("Le nombre saisi est supérieur à 5")
+};
