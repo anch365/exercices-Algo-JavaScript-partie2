@@ -30,3 +30,11 @@ alert("Bonjour " + saisie);
 let lastNom = prompt("Nom");
 let firstNom = prompt("Prénom");
 let cVille = prompt("Ville");
+
+// Exercice 5: Deux nombres à virgule
+let nbr1 = prompt("Entrez le premier nombre à virgule");
+let nbr2 = prompt("Entrez le deuxième nombre à virgule");
+let entier = parseInt(nbr1);
+
+let note = entier * nbr2;
+alert(note);
