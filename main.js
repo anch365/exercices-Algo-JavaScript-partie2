@@ -78,3 +78,12 @@ tableau.forEach(nombre => {
 });
 
 alert(message);
+
+// Exercice 10 : Affichage du mot de l'utilisateur
+let word = prompt("Saisissez un mot");
+let printable = "";
+
+for (const letter of word) {
+    printable += letter + "\n" 
+}
+alert(printable);
